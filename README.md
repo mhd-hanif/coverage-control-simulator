@@ -15,30 +15,47 @@ Features
 Installation
 ------------
 1. Clone the repository:
+
+   ```
    git clone https://github.com/mhd-hanif/coverage-control-simulator.git
    cd coverage_control
+   ```
 
 2. Install the package using `pip`:
+
+   ```
    pip install .
+   ```
 
 3. Alternatively, install the required dependencies:
+
+   ```
    pip install -r requirements.txt
+   ```
 
 Usage
 -----
 1. Import the package in your Python script:
+
+   ```
    from coverage_control.agents import generate_agents
    from coverage_control.voronoi import compute_voronoi
    from coverage_control.visualization import plot_voronoi
+   ```
 
 2. Run the example script:
-   python examples/example_static.py
 
-   This script generates a Voronoi diagram for 5 agents and visualizes it.
+   - Static Voronoi Example:
+     ```
+     python examples/example_static.py
+     ```
+     This script generates a Voronoi diagram for 5 agents and visualizes it.
 
-   python examples/example_dynamic.py
-
-   This script read agents position from csv input and dynamically update the voronoi partition depends on the agents position.
+   - Dynamic Voronoi Example:
+     ```
+     python examples/example_dynamic.py
+     ```
+     This script reads agents' positions from a CSV input and dynamically updates the Voronoi partition based on the agents' positions.
 
 Repository Structure
 --------------------

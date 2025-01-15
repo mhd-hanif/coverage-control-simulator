@@ -1,6 +1,8 @@
 Coverage Control Python Package
 ================================
 
+![Voronoi Example](output/voronoi_example.png)
+
 A Python package for coverage control using Voronoi partitions. This package provides tools to compute and visualize Voronoi diagrams, manage agent positions, and support related coverage control tasks.
 
 Features

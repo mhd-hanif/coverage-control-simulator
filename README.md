@@ -54,6 +54,6 @@ Contributions are welcome! Please check the CONTRIBUTING.md file for guidelines.
 
 Contact
 -------
-For questions or suggestions, please contact Your Name at mhaniffarhat@gmail.com.
+For questions or suggestions, please contact me at mhaniffarhat@gmail.com.
 
 

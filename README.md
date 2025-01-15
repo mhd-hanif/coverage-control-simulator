@@ -1,7 +1,7 @@
 Coverage Control Python Package
 ================================
 
-![Voronoi Example](output/voronoi_example.png)
+![Voronoi Example](output/dynamic_voronoi_example.gif)
 
 A Python package for coverage control using Voronoi partitions. This package provides tools to compute and visualize Voronoi diagrams, manage agent positions, and support related coverage control tasks.
 
@@ -32,9 +32,13 @@ Usage
    from coverage_control.visualization import plot_voronoi
 
 2. Run the example script:
-   python examples/example_voronoi.py
+   python examples/example_static.py
 
    This script generates a Voronoi diagram for 5 agents and visualizes it.
+
+   python examples/example_dynamic.py
+
+   This script read agents position from csv input and dynamically update the voronoi partition depends on the agents position.
 
 Repository Structure
 --------------------

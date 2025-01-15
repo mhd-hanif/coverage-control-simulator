@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+coverage_control/__init__.py
+coverage_control/agents.py
+coverage_control/utils.py
+coverage_control/visualization.py
+coverage_control/voronoi.py
+coverage_control_simulator.egg-info/PKG-INFO
+coverage_control_simulator.egg-info/SOURCES.txt
+coverage_control_simulator.egg-info/dependency_links.txt
+coverage_control_simulator.egg-info/requires.txt
+coverage_control_simulator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_agents.py
+tests/test_voronoi.py

@@ -6,7 +6,7 @@ def test_generate_agents():
     assert agents.shape == (5, 2)
 
 def test_load_agent_positions():
-    csv_file = 'input_data/agents.csv'
+    csv_file = 'input/agents.csv'
     timesteps, positions = load_agent_positions(csv_file)
     assert len(timesteps) == positions.shape[0]
     assert positions.shape[1] == 5

@@ -11,6 +11,8 @@ Features
 - Compute Voronoi partitions for a set of agents.
 - Visualize Voronoi diagrams and agent positions.
 - Example scripts to demonstrate usage.
+- **Future Plan**: Build support for multi-robot coverage control using ROS2 Humble (coming soon).
+
 
 Installation
 ------------
@@ -66,6 +68,10 @@ Repository Structure
 - setup.py: Installation script
 - requirements.txt: Python dependencies
 - README.txt: Overview and usage instructions
+
+Planned Features
+----------------
+We plan to expand this package to support multi-robot coverage control applications using ROS2 Humble. The upcoming features will focus on seamless integration with ROS2 systems and enable advanced multi-agent coordination. Stay tuned for updates!
 
 License
 -------

@@ -2,6 +2,7 @@ Coverage Control Python Package
 ================================
 
 ![Voronoi Example](output/dynamic_voronoi_example.gif)
+![Persistent Coverage](output/persistent_coverage_example.gif)
 
 A Python package for coverage control using Voronoi partitions. This package provides tools to compute and visualize Voronoi diagrams, manage agent positions, and support related coverage control tasks.
 
